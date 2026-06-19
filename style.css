@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #0c0000;
+}
+
+nav {
+  background: #0c0c0c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background: #e0f7fa;
+}
+
+/* Style for the image using the class */
+.profile-pic {
+  width: 200px;
+  border-radius: 50%; /* makes it circular */
+  margin-right: 2rem;
+}
+.btn {
+  display: inline-block;
+  background: #000406;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+#skills ul {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  background: #90e0ef;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+}
